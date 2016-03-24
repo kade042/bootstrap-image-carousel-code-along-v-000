@@ -1,0 +1,53 @@
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+
+/*/////// LAYOUT ////////*/
+
+.row {
+	margin-bottom: 20px;
+}
+
+
+/*/////// CAROUSEL STYLE ////////*/
+
+#carousel-example-generic .item img {
+	height: auto;
+}
+
+.carousel-caption p {
+	display: none;
+}
+
+@media only screen and (min-width: 786px) {
+
+	#carousel-example-generic .item img {
+	height: 342px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+	#carousel-example-generic .item img {
+	height: 464px;
+	}
+
+	.carousel-caption p {
+	display: block;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+
+	#carousel-example-generic .item img {
+	height: 600px;
+	}
+
+	.carousel-caption p {
+	display: block;
+}
+
